@@ -1,6 +1,6 @@
 {
   "name": "ourui-tool-v4",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "基于 Electron + TypeScript 的桌面应用工具",
   "main": "dist/main.js",
   "homepage": "./",
@@ -52,7 +52,7 @@
   },
   "build": {
     "appId": "com.ourui.tool-v4",
-    "productName": "OurUI Tool V4",
+    "productName": "OurUI-Tool-V4",
     "directories": {
       "output": "release"
     },
@@ -83,7 +83,8 @@
             "x64"
           ]
         }
-      ]
+      ],
+      "artifactName": "${productName}-Setup-${version}.${ext}"
     },
     "mac": {
       "target": [
