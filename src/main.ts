@@ -3,7 +3,7 @@ import * as path from 'path';
 import log from 'electron-log';
 import { autoUpdater } from 'electron-updater';
 import { runMigrations, seedDefaultAdmin } from './database/migrations';
-import { UserService } from './services/userService';
+import { UserService } from './services/UserService_bak';
 
 // 配置 electron-log
 log.transports.file.level = 'info';
