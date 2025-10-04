@@ -29,7 +29,7 @@ const About: React.FC = () => {
           <Col xs={24} md={20}>
             <Space direction="vertical" size="small">
               <Title level={2} style={{ color: '#fff', margin: 0 }}>
-                <InfoCircleOutlined /> OurUI Tool v4
+                <InfoCircleOutlined /> Electron Template
               </Title>
               <Paragraph style={{ color: 'rgba(255,255,255,0.9)', fontSize: '16px', margin: 0 }}>
                 现代化的桌面应用程序开发框架，为开发者提供高效、稳定的跨平台桌面应用开发体验
@@ -54,7 +54,7 @@ const About: React.FC = () => {
           >
             <Descriptions column={1} size="small">
               <Descriptions.Item label="项目名称">
-                <Text strong>OurUI Tool v4</Text>
+                <Text strong>Electron Template</Text>
               </Descriptions.Item>
               <Descriptions.Item label="版本号">
                 <Tag color="blue">v1.0.0</Tag>
@@ -196,7 +196,7 @@ const About: React.FC = () => {
                 </Col>
                 <Col span={22}>
                   <Text>GitHub: </Text>
-                  <Text code>https://github.com/ourui/tool-v4</Text>
+                  <Text code>https://github.com/yourname/electron-template</Text>
                 </Col>
               </Row>
               <Row align="middle">
@@ -205,7 +205,7 @@ const About: React.FC = () => {
                 </Col>
                 <Col span={22}>
                   <Text>邮箱: </Text>
-                  <Text code>support@ourui.com</Text>
+                  <Text code>support@electron-template.com</Text>
                 </Col>
               </Row>
             </Space>
@@ -226,7 +226,7 @@ const About: React.FC = () => {
                 Made with ❤️
               </Title>
               <Paragraph style={{ color: '#666', margin: 0, fontSize: '12px' }}>
-                © 2024 OurUI Tool v4
+                © 2024 Electron Template
               </Paragraph>
               <Paragraph style={{ color: '#666', margin: 0, fontSize: '12px' }}>
                 All rights reserved

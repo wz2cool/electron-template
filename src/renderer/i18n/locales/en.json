@@ -6,7 +6,7 @@
     "close": "Close"
   },
   "app": {
-    "title": "OurUI Tool v4"
+    "title": "Electron Template"
   },
   "navigation": {
     "home": "Home",

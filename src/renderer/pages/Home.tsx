@@ -52,7 +52,7 @@ const Home: React.FC = () => {
           <Col xs={24} md={16}>
             <Space direction="vertical" size="small">
               <Title level={2} style={{ color: '#fff', margin: 0 }}>
-                <RocketOutlined /> 欢迎使用 OurUI Tool v4
+                <RocketOutlined /> 欢迎使用 Electron Template
               </Title>
               <Paragraph style={{ color: 'rgba(255,255,255,0.9)', fontSize: '16px', margin: 0 }}>
                 现代化的桌面应用开发平台，集成最新技术栈

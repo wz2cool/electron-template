@@ -6,7 +6,7 @@
     "close": "关闭"
   },
   "app": {
-    "title": "OurUI Tool v4"
+    "title": "Electron Template"
   },
   "navigation": {
     "home": "首页",

@@ -59,7 +59,7 @@ const TitleBar: React.FC = () => {
         <div className="titlebar-title">
           <Space>
             <span className="app-icon">📦</span>
-            <span>OurUI Tool v4</span>
+            <span>Electron Template</span>
           </Space>
         </div>
       </div>

@@ -1,6 +1,6 @@
 {
   "name": "electron-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "基于 Electron + TypeScript 的桌面应用工具",
   "main": "dist/main.js",
   "homepage": "./",
