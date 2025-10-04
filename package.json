@@ -1,0 +1,130 @@
+{
+  "name": "ourui-tool-v4",
+  "version": "1.1.0",
+  "description": "基于 Electron + TypeScript 的桌面应用工具",
+  "main": "dist/main.js",
+  "homepage": "./",
+  "scripts": {
+    "build:main": "tsc",
+    "build:renderer": "rspack build",
+    "build": "npm run build:main && npm run build:renderer",
+    "dev:main": "tsc --watch",
+    "dev:renderer": "rspack serve",
+    "start": "npm run build && electron .",
+    "dev": "concurrently \"npm run dev:main\" \"npm run dev:renderer\" \"wait-on dist/renderer/index.html && electron . --dev\"",
+    "pack": "npm run build && electron-builder --dir",
+    "dist": "npm run build && electron-builder",
+    "dist:win": "npm run build && electron-builder --win",
+    "dist:mac": "npm run build && electron-builder --mac",
+    "dist:linux": "npm run build && electron-builder --linux",
+    "clean": "rimraf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/wz2cool/ourui-tool-v4.git"
+  },
+  "keywords": [
+    "electron",
+    "typescript",
+    "desktop",
+    "app"
+  ],
+  "author": "OurUI Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@rspack/cli": "^1.5.8",
+    "@rspack/core": "^1.5.8",
+    "@rspack/plugin-html": "^0.5.8",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^24.6.2",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@types/react-router-dom": "^5.3.3",
+    "concurrently": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "drizzle-kit": "^0.31.5",
+    "electron": "^38.2.1",
+    "electron-builder": "^26.0.12",
+    "rimraf": "^6.0.1",
+    "style-loader": "^4.0.0",
+    "typescript": "^5.9.3",
+    "wait-on": "^9.0.1"
+  },
+  "build": {
+    "appId": "com.ourui.tool-v4",
+    "productName": "OurUI Tool V4",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "src/renderer/**/*",
+      "node_modules/**/*"
+    ],
+    "extraResources": [
+      {
+        "from": "assets",
+        "to": "assets",
+        "filter": [
+          "**/*"
+        ]
+      }
+    ],
+    "publish": {
+      "provider": "github",
+      "owner": "wz2cool",
+      "repo": "ourui-tool-v4"
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    },
+    "mac": {
+      "target": [
+        {
+          "target": "dmg",
+          "arch": [
+            "x64",
+            "arm64"
+          ]
+        }
+      ],
+      "category": "public.app-category.developer-tools"
+    },
+    "linux": {
+      "target": [
+        {
+          "target": "AppImage",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "category": "Development"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    }
+  },
+  "dependencies": {
+    "antd": "^5.27.4",
+    "better-sqlite3": "^12.4.1",
+    "drizzle-orm": "^0.44.6",
+    "electron-log": "^5.4.3",
+    "electron-updater": "^6.6.2",
+    "i18next": "^25.5.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-i18next": "^16.0.0",
+    "react-router-dom": "^7.9.3"
+  }
+}

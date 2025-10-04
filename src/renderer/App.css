@@ -1,0 +1,10 @@
+/* 基础样式，使用 Ant Design 默认样式 */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* 应用主容器 */
+.app {
+  min-height: 100vh;
+}

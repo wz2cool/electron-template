@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OurUI Tool v4</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            overflow: hidden;
+        }
+        #root {
+            width: 100%;
+            height: 100vh;
+        }
+        
+        /* 初始加载动画 */
+        .initial-loading {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 10000;
+        }
+        
+        .loading-spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #1890ff;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+    <script>
+        // 为 Electron 环境提供 global 对象
+        if (typeof global === 'undefined') {
+            window.global = window;
+        }
+        
+        // 添加初始加载指示器
+        document.addEventListener('DOMContentLoaded', function() {
+            const loadingDiv = document.createElement('div');
+            loadingDiv.className = 'initial-loading';
+            loadingDiv.innerHTML = '<div class="loading-spinner"></div>';
+            document.body.appendChild(loadingDiv);
+            
+            // 当React应用加载完成后移除加载指示器
+            setTimeout(() => {
+                const loading = document.querySelector('.initial-loading');
+                if (loading) {
+                    loading.style.opacity = '0';
+                    loading.style.transition = 'opacity 0.3s ease-out';
+                    setTimeout(() => {
+                        loading.remove();
+                    }, 300);
+                }
+            }, 1000);
+        });
+    </script>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+</html>

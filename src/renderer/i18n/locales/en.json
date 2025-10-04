@@ -1,0 +1,64 @@
+{
+  "titlebar": {
+    "minimize": "Minimize",
+    "maximize": "Maximize",
+    "restore": "Restore",
+    "close": "Close"
+  },
+  "app": {
+    "title": "OurUI Tool v4"
+  },
+  "navigation": {
+    "home": "Home",
+    "users": "User Management",
+    "about": "About",
+    "settings": "Settings"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": {
+      "title": "Language Settings",
+      "description": "Choose the display language for the application",
+      "current": "Current Language",
+      "chinese": "中文",
+      "english": "English"
+    }
+  },
+  "update": {
+    "checking": "Checking for Updates",
+    "checkingDescription": "Searching for available updates...",
+    "available": "Update Available",
+    "availableDescription": "Version {{version}} is available for download",
+    "notAvailable": "No Updates Available",
+    "notAvailableDescription": "You are running the latest version",
+    "error": "Update Error",
+    "checkError": "Failed to check for updates",
+    "downloadError": "Failed to download update",
+    "newVersionAvailable": "New Version Available",
+    "currentVersion": "Current Version",
+    "newVersion": "New Version",
+    "releaseDate": "Release Date",
+    "releaseNotes": "Release Notes",
+    "later": "Remind Me Later",
+    "downloadNow": "Download Now",
+    "downloading": "Downloading...",
+    "downloadProgress": "Download Progress",
+    "downloaded": "Update Downloaded",
+    "downloadedDescription": "Update is ready to install",
+    "installNow": "Install Now",
+    "installConfirm": "Install Update",
+    "installConfirmDescription": "The application will restart to install the update. Continue?",
+    "readyToInstall": "Update Ready to Install",
+    "checkForUpdates": "Check for Updates",
+    "autoUpdate": "Automatic Updates",
+    "autoUpdateDescription": "Automatically download and install updates"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "close": "Close",
+    "success": "Success",
+    "failed": "Failed"
+  }
+}

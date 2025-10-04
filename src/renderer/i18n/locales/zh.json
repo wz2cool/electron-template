@@ -1,0 +1,64 @@
+{
+  "titlebar": {
+    "minimize": "最小化",
+    "maximize": "最大化",
+    "restore": "还原",
+    "close": "关闭"
+  },
+  "app": {
+    "title": "OurUI Tool v4"
+  },
+  "navigation": {
+    "home": "首页",
+    "users": "用户管理",
+    "about": "关于",
+    "settings": "设置"
+  },
+  "settings": {
+    "title": "设置",
+    "language": {
+      "title": "语言设置",
+      "description": "选择应用程序的显示语言",
+      "current": "当前语言",
+      "chinese": "中文",
+      "english": "English"
+    }
+  },
+  "update": {
+    "checking": "检查更新中",
+    "checkingDescription": "正在搜索可用更新...",
+    "available": "发现更新",
+    "availableDescription": "版本 {{version}} 可供下载",
+    "notAvailable": "暂无更新",
+    "notAvailableDescription": "您正在使用最新版本",
+    "error": "更新错误",
+    "checkError": "检查更新失败",
+    "downloadError": "下载更新失败",
+    "newVersionAvailable": "发现新版本",
+    "currentVersion": "当前版本",
+    "newVersion": "新版本",
+    "releaseDate": "发布日期",
+    "releaseNotes": "更新日志",
+    "later": "稍后提醒",
+    "downloadNow": "立即下载",
+    "downloading": "下载中...",
+    "downloadProgress": "下载进度",
+    "downloaded": "更新下载完成",
+    "downloadedDescription": "更新已准备好安装",
+    "installNow": "立即安装",
+    "installConfirm": "安装更新",
+    "installConfirmDescription": "应用程序将重启以安装更新，是否继续？",
+    "readyToInstall": "更新准备就绪",
+    "checkForUpdates": "检查更新",
+    "autoUpdate": "自动更新",
+    "autoUpdateDescription": "自动下载并安装更新"
+  },
+  "common": {
+    "cancel": "取消",
+    "confirm": "确认",
+    "save": "保存",
+    "close": "关闭",
+    "success": "成功",
+    "failed": "失败"
+  }
+}

@@ -1,0 +1,100 @@
+.titlebar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 32px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #ffffff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  user-select: none;
+  position: relative;
+  z-index: 1000;
+}
+
+.titlebar-drag-region {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  -webkit-app-region: drag;
+  padding-left: 12px;
+}
+
+.titlebar-title {
+  font-size: 13px;
+  font-weight: 400;
+  color: #cccccc;
+}
+
+.app-icon {
+  font-size: 14px;
+}
+
+.titlebar-controls {
+  display: flex;
+  height: 100%;
+  -webkit-app-region: no-drag;
+}
+
+.titlebar-button {
+  width: 46px !important;
+  height: 32px !important;
+  border-radius: 0 !important;
+  border: none !important;
+  background: transparent !important;
+  color: #cccccc !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 12px !important;
+  transition: background-color 0.1s ease !important;
+}
+
+.titlebar-button:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.titlebar-button:active {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.close-button:hover {
+  background-color: #e81123 !important;
+  color: white !important;
+}
+
+.close-button:active {
+  background-color: #f1707a !important;
+  color: white !important;
+}
+
+/* 最大化按钮图标调整 */
+.maximize-button .anticon {
+  font-size: 10px;
+}
+
+.minimize-button .anticon {
+  font-size: 10px;
+}
+
+.close-button .anticon {
+  font-size: 10px;
+}
+
+/* 暗色主题适配 */
+.titlebar {
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05) inset;
+}
+
+/* 聚焦状态 */
+.titlebar:focus-within {
+  background: linear-gradient(135deg, #5a6fd8 0%, #6a4190 100%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* 失焦状态 */
+.titlebar:not(:focus-within) {
+  background: linear-gradient(135deg, #556cd6 0%, #5d3a7e 100%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.8);
+}
