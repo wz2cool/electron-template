@@ -86,7 +86,7 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ onLoadingComplete }) => {
             </svg>
           </div>
           <Title level={2} style={{ color: '#1890ff', marginTop: 16, marginBottom: 8 }}>
-            OurUI Tool V4
+            Electron Template
           </Title>
           <Text type="secondary" style={{ fontSize: 14 }}>
             现代化的用户界面工具

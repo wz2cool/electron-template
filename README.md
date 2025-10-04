@@ -1,11 +1,11 @@
-# OurUI Tool V4
+# Electron Template
 
 基于 Electron + TypeScript 的桌面应用工具
 
 ## 项目结构
 
 ```
-ourui-tool-v4/
+electron-template/
 ├── src/
 │   ├── main.ts          # 主进程文件
 │   ├── preload.ts       # 预加载脚本

@@ -34,7 +34,7 @@
    "publish": {
      "provider": "github",
      "owner": "wz2cool",
-     "repo": "ourui-tool-v4"
+     "repo": "electron-template"
    }
    ```
 

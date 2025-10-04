@@ -1,4 +1,4 @@
-# OurUI Tool V4 - 版本 1.1.0 发布说明
+# Electron Template - 版本 1.1.0 发布说明
 
 发布日期：2025-10-04
 
@@ -38,13 +38,13 @@
 ## 📁 发布文件
 
 ### Windows 平台
-- **`OurUI Tool V4 Setup 1.1.0.exe`** - 安装程序 (104.5MB)
-- **`OurUI Tool V4 Setup 1.1.0.exe.blockmap`** - 增量更新映射文件
+- **`Electron Template Setup 1.1.0.exe`** - 安装程序 (104.5MB)
+- **`Electron Template Setup 1.1.0.exe.blockmap`** - 增量更新映射文件
 - **`latest.yml`** - 更新信息文件
 
 ### 文件详情
 ```
-文件名: OurUI Tool V4 Setup 1.1.0.exe
+文件名: Electron Template Setup 1.1.0.exe
 大小: 104,540,492 字节 (约 104.5 MB)
 SHA512: NAogm5rV+LEzs8YhJ28a5WLfAR+YVVMYng0eHgK/MH6AQFF9myVtviv9rCXSgm79mK3tLUxeCL7CjcPTHbOgLQ==
 发布时间: 2025-10-04T07:30:45.638Z
@@ -53,7 +53,7 @@ SHA512: NAogm5rV+LEzs8YhJ28a5WLfAR+YVVMYng0eHgK/MH6AQFF9myVtviv9rCXSgm79mK3tLUxe
 ## 🚀 安装说明
 
 ### 新用户安装
-1. 下载 `OurUI Tool V4 Setup 1.1.0.exe`
+1. 下载 `Electron Template Setup 1.1.0.exe`
 2. 以管理员身份运行安装程序
 3. 按照安装向导完成安装
 4. 首次运行时会自动设置数据库
@@ -91,7 +91,7 @@ SHA512: NAogm5rV+LEzs8YhJ28a5WLfAR+YVVMYng0eHgK/MH6AQFF9myVtviv9rCXSgm79mK3tLUxe
     "publish": {
       "provider": "github",
       "owner": "wz2cool",
-      "repo": "ourui-tool-v4"
+      "repo": "electron-template"
     }
   }
 }
@@ -99,7 +99,7 @@ SHA512: NAogm5rV+LEzs8YhJ28a5WLfAR+YVVMYng0eHgK/MH6AQFF9myVtviv9rCXSgm79mK3tLUxe
 
 ### 更新服务器
 - **提供商**：GitHub Releases
-- **仓库**：wz2cool/ourui-tool-v4
+- **仓库**：yourname/electron-template
 - **协议**：HTTPS 安全下载
 
 ## 🐛 已修复问题
@@ -126,8 +126,8 @@ SHA512: NAogm5rV+LEzs8YhJ28a5WLfAR+YVVMYng0eHgK/MH6AQFF9myVtviv9rCXSgm79mK3tLUxe
 ## 📞 技术支持
 
 ### 问题反馈
-- **GitHub Issues**：[创建问题](https://github.com/wz2cool/ourui-tool-v4/issues)
-- **邮箱支持**：support@ourui.com
+- **GitHub Issues**：[创建问题](https://github.com/yourname/electron-template/issues)
+- **邮箱支持**：support@electron-template.com
 
 ### 开发文档
 - **更新指南**：查看 `UPDATE_GUIDE.md`
@@ -140,5 +140,5 @@ SHA512: NAogm5rV+LEzs8YhJ28a5WLfAR+YVVMYng0eHgK/MH6AQFF9myVtviv9rCXSgm79mK3tLUxe
 
 ---
 
-**OurUI Team**  
+**Electron Template Team**  
 2025年10月4日

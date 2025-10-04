@@ -143,7 +143,7 @@ const App: React.FC = () => {
                   fontWeight: 'bold', 
                   color: '#1890ff'
                 }}>
-                  OurUI Tool
+                  Electron Template
                 </span>
               </Space>
             )}

@@ -81,14 +81,14 @@ export const seedDefaultAdmin = () => {
       // 创建默认管理员用户（密码应该在实际使用中进行哈希处理）
       db.insert(users).values({
         username: 'admin',
-        email: 'admin@ourui.com',
+        email: 'admin@electron-template.com',
         password: 'admin123', // 在实际应用中应该使用哈希密码
         fullName: '系统管理员',
         role: 'admin',
         status: 'active'
       }).run();
       
-      log.info('Default admin user created successfully: admin@ourui.com');
+      log.info('Default admin user created successfully: admin@electron-template.com');
     } else {
       log.info(`Admin user already exists: ${existingAdmin.username} (${existingAdmin.email})`);
     }

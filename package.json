@@ -1,6 +1,6 @@
 {
-  "name": "ourui-tool-v4",
-  "version": "1.1.1",
+  "name": "electron-template",
+  "version": "1.0.0",
   "description": "基于 Electron + TypeScript 的桌面应用工具",
   "main": "dist/main.js",
   "homepage": "./",
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitee.com/wz2cool/ourui-tool-v4.git"
+    "url": "https://github.com/wz2cool/electron-template.git"
   },
   "keywords": [
     "electron",
@@ -29,7 +29,7 @@
     "desktop",
     "app"
   ],
-  "author": "OurUI Team",
+  "author": "Your Name",
   "license": "MIT",
   "devDependencies": {
     "@rspack/cli": "^1.5.8",
@@ -51,8 +51,8 @@
     "wait-on": "^9.0.1"
   },
   "build": {
-    "appId": "com.ourui.tool-v4",
-    "productName": "OurUI-Tool-V4",
+    "appId": "com.electron.template",
+    "productName": "Electron-Template",
     "directories": {
       "output": "release"
     },
@@ -73,7 +73,7 @@
     "publish": {
       "provider": "github",
       "owner": "wz2cool",
-      "repo": "ourui-tool-v4"
+      "repo": "electron-template"
     },
     "win": {
       "target": [
