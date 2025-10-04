@@ -34,7 +34,6 @@
   "devDependencies": {
     "@rspack/cli": "^1.5.8",
     "@rspack/core": "^1.5.8",
-    "@rspack/plugin-html": "^0.5.8",
     "@types/better-sqlite3": "^7.6.13",
     "@types/node": "^24.6.2",
     "@types/react": "^19.2.0",
